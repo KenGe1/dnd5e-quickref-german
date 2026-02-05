@@ -1,1 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>D&D 5. Edition Nachschlagwerk</title>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/quickref.css">
+    <link rel="stylesheet" type="text/css" href="css/icons.css">
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora:700' rel='stylesheet' type='text/css'>
+    <!-- Javascript -->
+    <script type="text/javascript" src="js/jquery/jquery.min.js" charset="utf-8"></script>
+</head>
+<body class="page-background">
+    <div class="page fontsize" data-size="fullscreen">
 
+        <!-- Movement section -->
+        <div id="section-movement" class="section-container">
+            <div class="section-title">
+                Bewegung <span class="float-right">begrenzt durch Bewegungsgeschwindigkeit</span>
+            </div>
+            <div class="section-content">
+                <div class="section-row section-subtitle text fontsize">
+                    Du kannst dich zu jedem Zeitpunkt deines Zugs bewegen. (vor, nach, oder während Aktionen).
+                </div>
+                <div class="section-row" id="basic-movement">
+                </div>
+            </div>
+        </div>
+
+        <!-- Action section -->
+        <div id="section-action" class="section-container">
+            <div class="section-title">
+                Aktion <span class="float-right">1 pro Zug</span>
+            </div>
+            <div class="section-content">
+                <div class="section-row section-subtitle text fontsize">
+                    You can also interact with one object or feature of the
+                    environment for free.
+                </div>
+                <div class="section-row" id="basic-actions"></div>
+            </div>
+        </div>
+
+        <!-- Bonus action section -->
+        <div id="section-bonus-action" class="section-container">
+            <div class="section-title">
+                Bonus Aktion <span class="float-right">max. 1 pro Zug</span>
+            </div>
+            <div class="section-content">
+                <div class="section-row section-subtitle text fontsize">
+                    You can take a bonus action only when a special ability, spell, or feature
+                    states that you can do something as a bonus action.
+                </div>
+                <div class="section-row" id="basic-bonus-actions"></div>
+            </div>
+        </div>
+
+        <!-- Reaction section -->
+        <div id="section-reaction" class="section-container">
+            <div class="section-title">
+                Reaktion <span class="float-right">max. 1 pro Zug</span>
+            </div>
+            <div class="section-content">
+                <div class="section-row section-subtitle text fontsize">
+                    A reaction is an instant response to a trigger of some kind, which
+                    can occur on your turn or on someone else's.
+                </div>
+                <div class="section-row" id="basic-reactions"></div>
+            </div>
+        </div>
+
+        <!-- Condition section -->
+        <div id="section-condition" class="section-container">
+            <div class="section-title">
+                Zustand
+            </div>
+            <div class="section-content">
+                <div class="section-row section-subtitle text fontsize">
+                    Conditions alter your capabilities in a variety of ways, and can arise as a result of a spell, a class feature, a monster's attack, or other effect.
+                </div>
+                <div class="section-row" id="basic-conditions"></div>
+            </div>
+        </div>
+        
+        <!-- Environmental section -->
+        <div id="section-environment" class="section-container">
+            <div class="section-title">
+                Umgebungseffekte
+            </div>
+            <div class="section-content">
+                <div class="section-row section-subtitle text fontsize">
+                    Effekte, die die Sicht beeinträchtigen, können viele Aktionen erschweren.
+                </div>
+                <div class="section-row" id="environment-obscurance"></div>
+                <div class="section-row section-subtitle text fontsize">
+                    Die Menge des Lichts kann in drei verschiedene Kategorien von Helligkeit geteilt werden. 
+                </div>
+                <div class="section-row" id="environment-light"></div>
+                <div class="section-row section-subtitle text fontsize">
+                    Manche Kreaturen haben übernatürliche Sinne, um die Umgebung wahrzunehmen.
+                </div>
+                <div class="section-row" id="environment-vision"></div>
+                <div class="section-row section-subtitle text fontsize">
+                    Hindernisse können im Kampf Deckung gewähren, welche ein Ziel schwieriger treffen lassen.
+                </div>
+                <div class="section-row" id="environment-cover"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="modal" tabindex="-1">
+        <div class="modal-backdrop" id="modal-backdrop"></div>
+        <div class="modal-dialog modalsize">
+            <div class="section-container modal-container" id="modal-container">
+                <div class="section-title" id="modal-title">
+                    Modal title<span class="float-right">Action</span>
+                </div>
+                <div class="section-content">
+                    <div class="section-row section-subtitle text" id="modal-subtitle">
+                        Subtitle
+                    </div>
+                    <div class="section-row text">
+                        <div id="modal-bullets">
+                        </div>
+                    </div>
+                    <div class="section-row text" id="modal-reference">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Data -->
+    <script type="text/javascript" src="js/data_movement.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/data_action.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/data_bonusaction.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/data_reaction.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/data_condition.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/data_environment.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/quickref.js" charset="utf-8"></script>
+</body>
+</html>
