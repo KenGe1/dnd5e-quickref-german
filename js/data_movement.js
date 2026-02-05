@@ -2,8 +2,8 @@ data_movement = [
     {
         title: "Move",
         icon: "run",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft moved",
+        subtitle: "Cost: 1,5m per 1,5m",
+        description: "Movement cost: 1,5m per 1,5m moved",
         reference: "PHB, pg. 190.",
         bullets: [
             "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
@@ -16,8 +16,8 @@ data_movement = [
     {
         title: "Climb",
         icon: "crags",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft climbed",
+        subtitle: "Cost: 3m per 1,5m",
+        description: "Movement cost: 3m per 1,5m climbed",
         reference: "PHB, pg. 182.",
         bullets: [
             "May involve a Strength (Athletics) check if the climb is difficult"
@@ -26,8 +26,8 @@ data_movement = [
     {
         title: "Swim",
         icon: "at-sea",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft swum",
+        subtitle: "Cost: 3m per 1,5m",
+        description: "Movement cost: 3m per 1,5m swum",
         reference: "PHB, pg. 182.",
         bullets: [
             "May involve a Strength (Athletics) check if the swim is difficult"
@@ -48,8 +48,8 @@ data_movement = [
     {
         title: "Crawl",
         icon: "crawl",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft crawled",
+        subtitle: "Cost: 3m per 1,5m",
+        description: "Movement cost: 3m per 1,5m crawled",
         reference: "PHB, pg. 182.",
         bullets: [
 
@@ -68,8 +68,8 @@ data_movement = [
     {
         title: "High jump",
         icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
+        subtitle: "Cost: 1,5m per 1,5m",
+        description: "Movement cost: 1,5m per 1,5m jumped",
         
         reference: "PHB, pg. 182.",
         bullets: [
@@ -82,8 +82,8 @@ data_movement = [
     {
         title: "Long jump",
         icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
+        subtitle: "Cost: 1,5m per 1,5m",
+        description: "Movement cost: 1,5m per 1,5m jumped",
         reference: "PHB, pg. 182.",
         bullets: [
             "You cover a number of feet up to your <b>Strength score</b> if you move at least 10 feet on foot immediately before the jump.",
@@ -104,9 +104,9 @@ data_movement = [
     {
         title: "Difficult terrain",
         icon: "stone-pile",
-        subtitle: "Cost modifier: +5ft per 5ft",
+        subtitle: "Cost modifier: +1,5m per 1,5m",
         reference: "PHB, pg. 182.",
-        description: "Moving in difficult terrain costs an additional 5ft per 5ft of movement",
+        description: "Moving in difficult terrain costs an additional 1,5m per 1,5m of movement",
         bullets: [
         ]
     },
