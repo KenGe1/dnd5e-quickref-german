@@ -1,180 +1,180 @@
 data_condition = [
     {
-        title: "Blinded",
+        title: "Geblendet",
         icon: "one-eyed",
-        subtitle: "You can't see",
-        description: "You can't see",
-        reference: "PHB, pg. 290.",
+        subtitle: "Du kannst nicht sehen",
+        description: "Du kannst nicht sehen",
+        reference: "PHB, S. 290.",
         bullets: [
-            "You automatically fail any ability check which requires sight.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage."
+            "Jeder Fähigkeitswurf, der Sicht erfordert, misslingt dir automatisch.",
+            "Du hast Nachteil auf Angriffswürfe.",
+            "Angriffswürfe gegen dich haben Vorteil."
         ]
     },
     {
-        title: "Charmed",
+        title: "Bezaubert",
         icon: "smitten",
-        subtitle: "You are charmed",
-        description: "You are charmed by another creature",
-        reference: "PHB, pg. 290.",
+        subtitle: "Du bist bezaubert",
+        description: "Du wurdest durch eine andere Kreatur bezaubert",
+        reference: "PHB, S. 290.",
         bullets: [
-            "You can't attack your charmer or target them with harmful abilities or magical effects.",
-            "Your charmer has advantage on ability checks to interact socially with you."
+            "Du kannst deinen Bezauberer nicht angreifen und ihn nicht als Ziel schädlicher Fähigkeiten oder magischer Effekte wählen.",
+            "Dein Bezauberer hat Vorteil auf Fähigkeitswürfe, um sozial mit dir zu interagieren."
         ]
     },
     {
-        title: "Deafened",
+        title: "Taub",
         icon: "elf-ear",
-        subtitle: "You can't hear",
-        description: "You can't hear",
-        reference: "PHB, pg. 290.",
+        subtitle: "Du kannst nicht hören",
+        description: "Du kannst nicht hören",
+        reference: "PHB, S. 290.",
         bullets: [
-            "You automatically fail any ability check which requires hearing."
+            "Jeder Fähigkeitswurf, der Gehör erfordert, misslingt dir automatisch."
         ]
     },
     {
-        title: "Exhaustion",
+        title: "Erschöpfung",
         icon: "crawl",
-        subtitle: "You are exhausted",
-        description: "Exhaustion is measured in six levels",
-        reference: "PHB, pg. 291.",
+        subtitle: "Du bist erschöpft",
+        description: "Erschöpfung wird in sechs Stufen gemessen",
+        reference: "PHB, S. 291.",
         bullets: [
-            "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1</td><td></td><td></td><td>Disadvantage on ability checks</td></tr><tr><td>2</td><td></td><td></td><td>Speed halved</td></tr><tr><td>3</td><td></td><td></td><td>Disadvantage on attack rolls and saving throws</td></tr><tr><td>4</td><td></td><td></td><td>Hit point maximum halved</td></tr><tr><td>5</td><td></td><td></td><td>Speed reduced to 0</td></tr><tr><td>6</td><td></td><td></td><td>Death</td></tr></table>",
-            "You suffer the effect of your current level of exhaustion as well as all lower levels.",
-            "Finishing a long rest reduces your exhaustion level by 1, provided that you have also had some food and drink."
+            "<table><tr><th>Stufe</th><th></th><th></th><th style='text-align:left'>Effekt</th></tr><tr><td>1</td><td></td><td></td><td>Nachteil auf Fähigkeitswürfe</td></tr><tr><td>2</td><td></td><td></td><td>Bewegungsrate halbiert</td></tr><tr><td>3</td><td></td><td></td><td>Nachteil auf Angriffswürfe und Rettungswürfe</td></tr><tr><td>4</td><td></td><td></td><td>Trefferpunktemaximum halbiert</td></tr><tr><td>5</td><td></td><td></td><td>Bewegungsrate auf 0 reduziert</td></tr><tr><td>6</td><td></td><td></td><td>Tod</td></tr></table>",
+            "Du erleidest die Effekte deiner aktuellen Erschöpfungsstufe sowie aller darunterliegenden Stufen.",
+            "Eine lange Rast senkt deine Erschöpfungsstufe um 1, sofern du auch etwas gegessen und getrunken hast."
         ]
     },
     {
-        title: "Frightened",
+        title: "Verängstigt",
         icon: "sharp-smile",
-        subtitle: "You are frightened",
-        description: "You are frightened",
-        reference: "PHB, pg. 290.",
+        subtitle: "Du bist verängstigt",
+        description: "Du bist verängstigt",
+        reference: "PHB, S. 290.",
         bullets: [
-            "You have disadvantage on ability checks and attack rolls while the source of your fear is within line of sight.",
-            "You can't willingly move closer to the source of your fear."
+            "Du hast Nachteil auf Fähigkeitswürfe und Angriffswürfe, solange die Quelle deiner Angst in Sichtlinie ist.",
+            "Du kannst dich der Quelle deiner Angst nicht freiwillig nähern."
         ]
     },
     {
-        title: "Grappled",
+        title: "Gepackt",
         icon: "grab",
-        subtitle: "You are grappled",
-        description: "You are grappled",
-        reference: "PHB, pg. 290.",
+        subtitle: "Du bist gepackt",
+        description: "Du bist gepackt",
+        reference: "PHB, S. 290.",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "The condition ends if your grappler is incapacitated.",
-            "The condition also ends if you are removed from the reach of your grappler."
+            "Deine Bewegungsrate wird 0 und du kannst nicht von Boni auf deine Bewegungsrate profitieren.",
+            "Der Zustand endet, wenn die packende Kreatur kampfunfähig wird.",
+            "Der Zustand endet ebenfalls, wenn du aus der Reichweite der packenden Kreatur entfernt wirst."
         ]
     },
     {
-        title: "Incapacitated",
+        title: "Kampfunfähig",
         icon: "internal-injury",
-        subtitle: "You can't take actions or reactions",
-        description: "You can't take actions or reactions",
-        reference: "PHB, pg. 290.",
+        subtitle: "Du kannst keine Aktionen oder Reaktionen ausführen",
+        description: "Du kannst keine Aktionen oder Reaktionen ausführen",
+        reference: "PHB, S. 290.",
         bullets: [
         ]
     },
     {
-        title: "Invisible",
+        title: "Unsichtbar",
         icon: "invisible",
-        subtitle: "You can't be seen",
-        description: "You can't be seen without the aid of magic or a special sense",
-        reference: "PHB, pg. 291.",
+        subtitle: "Du kannst nicht gesehen werden",
+        description: "Du kannst ohne Magie oder besonderen Sinn nicht gesehen werden",
+        reference: "PHB, S. 291.",
         bullets: [
-            "For the purpose of hiding, you are heavily obscured.",
-            "You can still be detected by any noise you make or tracks you leave.",
-            "You have advantage on attack rolls.",
-            "Attack rolls against you have disadvantage."
+            "Zum Zwecke des Versteckens giltst du als stark verdeckt.",
+            "Du kannst dennoch durch Geräusche oder Spuren entdeckt werden.",
+            "Du hast Vorteil auf Angriffswürfe.",
+            "Angriffswürfe gegen dich haben Nachteil."
         ]
     },
     {
-        title: "Paralyzed",
+        title: "Gelähmt",
         icon: "internal-injury",
-        subtitle: "You are paralyzed",
-        description: "You can't do anything",
+        subtitle: "Du bist gelähmt",
+        description: "Du kannst nichts tun",
         bullets: [
-            "You are incapacitated and can't move or speak.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "Du bist kampfunfähig und kannst dich nicht bewegen oder sprechen.",
+            "Angriffswürfe gegen dich haben Vorteil.",
+            "Jeder Angriff, der dich trifft, ist ein kritischer Treffer, wenn der Angreifer sich innerhalb von 1,5 m befindet.",
+            "Stärke- und Geschicklichkeitsrettungswürfe misslingen dir automatisch."
         ]
     },
     {
-        title: "Petrified",
+        title: "Versteinert",
         icon: "stone-pile",
-        subtitle: "You are transformed into stone",
-        description: "You are transformed, along with any nonmagical objects you are wearing or carrying, into a solid inanimate substance (usually stone)",
-        reference: "PHB, pg. 291.",
+        subtitle: "Du wurdest in Stein verwandelt",
+        description: "Du wurdest zusammen mit allen nichtmagischen Gegenständen, die du trägst oder bei dir hast, in eine feste leblose Substanz verwandelt (meist Stein)",
+        reference: "PHB, S. 291.",
         bullets: [
-            "Your weight increases by a factor of ten, and you cease aging.",
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws.",
-            "You have resistance to all damage.",
-            "You are immune to poison and disease, though a poison or disease already in your system is only suspended, not neutralized."
+            "Dein Gewicht verzehnfacht sich und du alterst nicht weiter.",
+            "Du bist kampfunfähig, kannst dich nicht bewegen oder sprechen und nimmst deine Umgebung nicht wahr.",
+            "Angriffswürfe gegen dich haben Vorteil.",
+            "Stärke- und Geschicklichkeitsrettungswürfe misslingen dir automatisch.",
+            "Du hast Resistenz gegen allen Schaden.",
+            "Du bist immun gegen Gift und Krankheit; vorhandene Gifte oder Krankheiten in deinem Körper werden jedoch nur ausgesetzt, nicht neutralisiert."
         ]
     },
     {
-        title: "Poisoned",
+        title: "Vergiftet",
         icon: "deathcab",
-        subtitle: "You are poisoned",
-        description: "You are poisoned",
-        reference: "PHB, pg. 292.",
+        subtitle: "Du bist vergiftet",
+        description: "Du bist vergiftet",
+        reference: "PHB, S. 292.",
         bullets: [
-            "You have disadvantage on attack rolls and ability checks."
+            "Du hast Nachteil auf Angriffswürfe und Fähigkeitswürfe."
         ]
     },
     {
-        title: "Prone",
+        title: "Liegend",
         icon: "crawl",
-        subtitle: "You are prone",
-        description: "You are prone",
-        reference: "PHB, pg. 292.",
+        subtitle: "Du liegst am Boden",
+        description: "Du liegst am Boden",
+        reference: "PHB, S. 292.",
         bullets: [
-            "Your only movement option is to crawl, unless you stand up.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage if the attacker is within 5 feet of you, otherwise the attack roll has disadvantage."
+            "Deine einzige Bewegungsoption ist Kriechen, außer du stehst auf.",
+            "Du hast Nachteil auf Angriffswürfe.",
+            "Angriffswürfe gegen dich haben Vorteil, wenn der Angreifer innerhalb von 1,5 m ist; andernfalls hat der Angriffswurf Nachteil."
         ]
     },
     {
-        title: "Restrained",
+        title: "Festgesetzt",
         icon: "imprisoned",
-        subtitle: "You are restrained",
-        description: "You are restrained",
-        reference: "PHB, pg. 292.",
+        subtitle: "Du bist festgesetzt",
+        description: "Du bist festgesetzt",
+        reference: "PHB, S. 292.",
         bullets: [
-            "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage.",
-            "You have disadvantage on Dexterity saving throws."
+            "Deine Bewegungsrate wird 0 und du kannst nicht von Boni auf deine Bewegungsrate profitieren.",
+            "Du hast Nachteil auf Angriffswürfe.",
+            "Angriffswürfe gegen dich haben Vorteil.",
+            "Du hast Nachteil auf Geschicklichkeitsrettungswürfe."
         ]
     },
     {
-        title: "Stunned",
+        title: "Betäubt",
         icon: "internal-injury",
-        subtitle: "You are stunned",
-        description: "You are stunned",
-        reference: "PHB, pg. 292.",
+        subtitle: "Du bist betäubt",
+        description: "Du bist betäubt",
+        reference: "PHB, S. 292.",
         bullets: [
-            "You are incapacitated, can't move, and can speak only falteringly.",
-            "Attack rolls against you have advantage.",
-            "You automatically fail Strength and Dexterity saving throws."
+            "Du bist kampfunfähig, kannst dich nicht bewegen und nur stockend sprechen.",
+            "Angriffswürfe gegen dich haben Vorteil.",
+            "Stärke- und Geschicklichkeitsrettungswürfe misslingen dir automatisch."
         ]
     },
     {
-        title: "Unconscious",
+        title: "Bewusstlos",
         icon: "coma",
-        subtitle: "You are unconscious",
-        description: "You are unconscious",
-        reference: "PHB, pg. 292.",
+        subtitle: "Du bist bewusstlos",
+        description: "Du bist bewusstlos",
+        reference: "PHB, S. 292.",
         bullets: [
-            "You are incapacitated, can't move or speak, and are unaware of your surroundings.",
-            "You drop whatever you're holding and fall prone.",
-            "Attack rolls against you have advantage.",
-            "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
-            "You automatically fail Strength and Dexterity saving throws.",
+            "Du bist kampfunfähig, kannst dich nicht bewegen oder sprechen und nimmst deine Umgebung nicht wahr.",
+            "Du lässt fallen, was du in der Hand hältst, und gehst zu Boden.",
+            "Angriffswürfe gegen dich haben Vorteil.",
+            "Jeder Angriff, der dich trifft, ist ein kritischer Treffer, wenn der Angreifer sich innerhalb von 1,5 m befindet.",
+            "Stärke- und Geschicklichkeitsrettungswürfe misslingen dir automatisch."
         ]
     }
 ]

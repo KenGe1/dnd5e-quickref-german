@@ -1,34 +1,34 @@
 data_bonusaction = [
     {
-        title: "Offhand Attack",
+        title: "Angriff mit zweiter Waffe",
         icon: "crossed-swords",
-        subtitle: "Use with the Attack action",
-        description: "Attack with your off hand",
-        reference: "PHB, pgs. 192,194-195.",
+        subtitle: "Mit der Aktion Angreifen",
+        description: "Greife mit deiner zweiten Hand an",
+        reference: "PHB, S. 192, 194-195.",
         bullets: [
-            "Only usable if you take the <i>Attack</i> action and attack with a light melee weapon that you're holding in one hand.",
-            "Perform a single attack with a different light melee weapon that you're holding in the other hand.",
-            "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.",
-            "If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it."
+            "Nur möglich, wenn du die Aktion <i>Angreifen</i> ausführst und mit einer leichten Nahkampfwaffe angreifst, die du in einer Hand führst.",
+            "Führe einen einzelnen Angriff mit einer anderen leichten Nahkampfwaffe aus, die du in der anderen Hand führst.",
+            "Du addierst deinen Attributsmodifikator nicht auf den Schaden des Bonusangriffs, es sei denn, der Modifikator ist negativ.",
+            "Wenn eine der Waffen die Eigenschaft Wurfwaffe hat, kannst du sie werfen, statt mit ihr einen Nahkampfangriff auszuführen."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Einen Zauber wirken",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 bonus action",
-        description: "Cast a spell with a casting time of 1 bonus action",
-        reference: "PHB, pg. 192.",
+        subtitle: "Zauberzeit: 1 Bonusaktion",
+        description: "Wirke einen Zauber mit einer Zauberzeit von 1 Bonusaktion",
+        reference: "PHB, S. 192.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Du kannst in demselben Zug keinen weiteren Zauber mit deiner Aktion wirken, außer es handelt sich dabei um einen Zaubertrick mit einer Zauberzeit von 1 Aktion.",
+            "Weitere Details siehe Aktion <i>Einen Zauber wirken</i>."
         ]
     },
     {
-        title: "Use class feature",
+        title: "Klassenmerkmal einsetzen",
         icon: "embrassed-energy",
-        subtitle: "Some features use bonus actions",
-        description: "Use a racial or class feature that uses a bonus action",
-        reference: "See class page for more information.",
+        subtitle: "Einige Merkmale benötigen Bonusaktionen",
+        description: "Setze ein Volks- oder Klassenmerkmal ein, das eine Bonusaktion erfordert",
+        reference: "Weitere Informationen auf der Klassenseite.",
         bullets: [
 
         ]
