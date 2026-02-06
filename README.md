@@ -3,6 +3,10 @@ dnd5e-quickref-german
 
 Nachschlagwerk für D&amp;D 5. Edition
 
+Dokumentation
+==============
+
+- Überblick zur Datenstruktur und Anleitung zum Erweitern der Kategorien/Felder: `docs/DATENSTRUKTUR.md`
 
 Icons
 ==============
