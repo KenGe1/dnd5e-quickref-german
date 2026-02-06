@@ -36,7 +36,7 @@ data_movement = [
     {
         title: "Drop prone",
         icon: "falling",
-        subtitle: "Cost: 0ft",
+        subtitle: "Cost: 0m",
         description: "Movement cost: 0ft (free)",
         reference: "PHB, pgs. 190-191,292.",
         bullets: [
