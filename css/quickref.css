@@ -109,6 +109,7 @@
 
 .item-text-container {
     flex: 1;
+    min-width: 0;
     padding-right: 4px;
     font-size: inherit;
     height: 100%;
@@ -177,6 +178,11 @@ body {
     align-content:center;
 }
 
+.page {
+    width: 100%;
+    box-sizing: border-box;
+}
+
 /* ------------------------------------------------------------------------- */
 /* Misc */
 /* ------------------------------------------------------------------------- */
@@ -201,6 +207,14 @@ hr {
 
 p:first-child {
     margin-top: 1em;
+}
+
+.section-subtitle,
+#modal-subtitle,
+#modal-reference,
+#modal-bullets p {
+    overflow-wrap: anywhere;
+    word-break: break-word;
 }
 
 /* ------------------------------------------------------------------------- */
@@ -266,17 +280,85 @@ p:first-child {
 
 /* Smart phone, portrait */
 @media (min-width:    0px) and (max-width:  479px) {
+    body {
+        margin: 0;
+    }
+
+    .page {
+        padding: 8px;
+    }
+
     .fontsize { font-size: 12pt; } 
     .iconsize { width: 44px; height: 44px;} 
-    .itemsize { height: 44px; width: 100%; } 
+    .itemsize { width: 100%; min-height: 44px; height: auto; }
+    .section-title {
+        min-height: 32px;
+        height: auto;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        line-height: 1.2;
+    }
+
+    .section-title .float-right {
+        float: none;
+        display: block;
+        margin-top: 2px;
+        font-size: 0.85em;
+    }
+
+    .item {
+        margin-bottom: 10px;
+    }
+
+    .item-title,
+    .item-desc {
+        white-space: normal;
+        text-overflow: clip;
+        line-height: 1.2;
+    }
+
     .modalsize {} 
 }
 
 /* Smart phone, landscape */
 @media (min-width:  480px) and (max-width:  767px) {
+    body {
+        margin: 0;
+    }
+
+    .page {
+        padding: 8px;
+    }
+
     .fontsize { font-size: 11pt; }
     .iconsize { width: 40px; height: 40px;}
-    .itemsize { height: 40px; width:  50%; }
+    .itemsize { width: 100%; min-height: 40px; height: auto; }
+    .section-title {
+        min-height: 32px;
+        height: auto;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        line-height: 1.2;
+    }
+
+    .section-title .float-right {
+        float: none;
+        display: block;
+        margin-top: 2px;
+        font-size: 0.85em;
+    }
+
+    .item {
+        margin-bottom: 10px;
+    }
+
+    .item-title,
+    .item-desc {
+        white-space: normal;
+        text-overflow: clip;
+        line-height: 1.2;
+    }
+
     .modalsize {}
 }
 
@@ -319,4 +401,3 @@ p:first-child {
     .itemsize { height: 36px; width:  33%; }
     .modalsize {}
 }
-
