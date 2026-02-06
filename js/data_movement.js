@@ -1,124 +1,123 @@
 data_movement = [
     {
-        title: "Move",
+        title: "Bewegen",
         icon: "run",
-        subtitle: "Cost: 1,5m per 1,5m",
-        description: "Movement cost: 1,5m per 1,5m moved",
-        reference: "PHB, pg. 190.",
+        subtitle: "Kosten: 1,5 m pro 1,5 m",
+        description: "Bewegungskosten: 1,5 m pro 1,5 m Bewegung",
+        reference: "PHB, S. 190.",
         bullets: [
-            "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
-            "You can move through a nonhostile creature's space.",
-            "You can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you.",
-            "Another creature's space is difficult terrain for you.",
-            "Whether a creature is a friend or an enemy, you can't willingly end your move in its space."
+            "Wenn du mehr als eine Bewegungsrate hast, zum Beispiel Gehen und Fliegen, kannst du während deiner Bewegung zwischen ihnen wechseln. Immer wenn du wechselst, ziehst du die bereits zurückgelegte Distanz von der neuen Bewegungsrate ab.",
+            "Du kannst dich durch den Raum einer nicht feindlichen Kreatur bewegen.",
+            "Du kannst dich durch den Raum einer feindlichen Kreatur nur bewegen, wenn sie mindestens zwei Größenkategorien größer oder kleiner ist als du.",
+            "Der Raum einer anderen Kreatur ist schwieriges Gelände für dich.",
+            "Du kannst deine Bewegung nicht freiwillig im Raum einer anderen Kreatur beenden, unabhängig davon, ob sie Freund oder Feind ist."
         ]
     },
     {
-        title: "Climb",
+        title: "Klettern",
         icon: "crags",
-        subtitle: "Cost: 3m per 1,5m",
-        description: "Movement cost: 3m per 1,5m climbed",
-        reference: "PHB, pg. 182.",
+        subtitle: "Kosten: 3 m pro 1,5 m",
+        description: "Bewegungskosten: 3 m pro 1,5 m Klettern",
+        reference: "PHB, S. 182.",
         bullets: [
-            "May involve a Strength (Athletics) check if the climb is difficult"
+            "Kann einen Stärkewurf (Athletik) erfordern, wenn der Aufstieg schwierig ist."
         ]
     },
     {
-        title: "Swim",
+        title: "Schwimmen",
         icon: "at-sea",
-        subtitle: "Cost: 3m per 1,5m",
-        description: "Movement cost: 3m per 1,5m swum",
-        reference: "PHB, pg. 182.",
+        subtitle: "Kosten: 3 m pro 1,5 m",
+        description: "Bewegungskosten: 3 m pro 1,5 m Schwimmen",
+        reference: "PHB, S. 182.",
         bullets: [
-            "May involve a Strength (Athletics) check if the swim is difficult"
+            "Kann einen Stärkewurf (Athletik) erfordern, wenn das Schwimmen schwierig ist."
         ]
     },
     {
-        title: "Drop prone",
+        title: "Zu Boden gehen",
         icon: "falling",
-        subtitle: "Cost: 0m",
-        description: "Movement cost: 0ft (free)",
-        reference: "PHB, pgs. 190-191,292.",
+        subtitle: "Kosten: 0 m",
+        description: "Bewegungskosten: 0 m (kostenlos)",
+        reference: "PHB, S. 190-191, 292.",
         bullets: [
-            "You can drop prone without using any of your speed",
-            "To move while prone, you must crawl or use magic such as teleportation",
-            "Dropping prone adds the <i>Prone</i> condition (melee attacks against you have advantage, ranged attacks against you have disadvantage, your own attacks have disadvantage)"
+            "Du kannst dich ohne Einsatz von Bewegungsrate zu Boden werfen.",
+            "Während du am Boden liegst, kannst du dich nur kriechend bewegen oder Magie wie Teleportation einsetzen.",
+            "Zu Boden gehen verleiht dir den Zustand <i>Liegend</i> (Nahkampfangriffe gegen dich mit Vorteil, Fernkampfangriffe gegen dich mit Nachteil, deine eigenen Angriffe mit Nachteil)."
         ]
     },
     {
-        title: "Crawl",
+        title: "Kriechen",
         icon: "crawl",
-        subtitle: "Cost: 3m per 1,5m",
-        description: "Movement cost: 3m per 1,5m crawled",
-        reference: "PHB, pg. 182.",
+        subtitle: "Kosten: 3 m pro 1,5 m",
+        description: "Bewegungskosten: 3 m pro 1,5 m Kriechen",
+        reference: "PHB, S. 182.",
         bullets: [
 
         ]
     },
     {
-        title: "Stand up",
+        title: "Aufstehen",
         icon: "strong",
-        subtitle: "Cost: half movement speed",
-        description: "Movement cost: half of your speed",
-        reference: "PHB, pg. 190-191.",
+        subtitle: "Kosten: halbe Bewegungsrate",
+        description: "Bewegungskosten: die Hälfte deiner Bewegungsrate",
+        reference: "PHB, S. 190-191.",
         bullets: [
-            "You can't stand up if you don't have enough movement left or if your speed is 0"
+            "Du kannst nicht aufstehen, wenn dir dafür nicht genug Bewegung verbleibt oder deine Bewegungsrate 0 ist."
         ]
     },
     {
-        title: "High jump",
+        title: "Hochsprung",
         icon: "wingfoot",
-        subtitle: "Cost: 1,5m per 1,5m",
-        description: "Movement cost: 1,5m per 1,5m jumped",
-        
-        reference: "PHB, pg. 182.",
+        subtitle: "Kosten: 1,5 m pro 1,5 m",
+        description: "Bewegungskosten: 1,5 m pro 1,5 m Sprungweite",
+        reference: "PHB, S. 182.",
         bullets: [
-            "You leap into the air a number of feet equal to <b>3 + your Strength modifier</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing high jump, you can jump only half that distance.",
-            "You can extend your arms half your height above yourself during the jump.",
-            "In some circumstances, your DM might allow you to make a Strength (Athletics) check to jump higher than you normally can."
+            "Wenn du dich unmittelbar vor dem Sprung mindestens 3 m zu Fuß bewegst, springst du eine Höhe in Fuß in Höhe von <b>3 + deinem Stärkemodifikator</b>.",
+            "Aus dem Stand springst du nur halb so hoch.",
+            "Während des Sprungs kannst du deine Arme bis zur Hälfte deiner Körpergröße über dich ausstrecken.",
+            "Unter Umständen kann der DM einen Stärkewurf (Athletik) erlauben, um höher zu springen als gewöhnlich."
         ]
     },
     {
-        title: "Long jump",
+        title: "Weitsprung",
         icon: "wingfoot",
-        subtitle: "Cost: 1,5m per 1,5m",
-        description: "Movement cost: 1,5m per 1,5m jumped",
-        reference: "PHB, pg. 182.",
+        subtitle: "Kosten: 1,5 m pro 1,5 m",
+        description: "Bewegungskosten: 1,5 m pro 1,5 m Sprungweite",
+        reference: "PHB, S. 182.",
         bullets: [
-            "You cover a number of feet up to your <b>Strength score</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing long jump, you can leap only half that distance",
-            "May involve a DC 10 Strength (Athletics) check to clear a low obstacle (no taller than a quarter of the jump's distance). You hit the obstacle on a failed check.",
-            "May involve a DC 10 Dexterity (Acrobatics) check to land on your feet in difficult terrain. You land prone on a failed check."
+            "Wenn du dich unmittelbar vor dem Sprung mindestens 3 m zu Fuß bewegst, springst du eine Weite in Fuß bis zu deinem <b>Stärkewert</b>.",
+            "Aus dem Stand springst du nur halb so weit.",
+            "Kann einen SG-10-Stärkewurf (Athletik) erfordern, um ein niedriges Hindernis zu überwinden (nicht höher als ein Viertel der Sprungweite). Misslingt der Wurf, stößt du dagegen.",
+            "Kann einen SG-10-Geschicklichkeitswurf (Akrobatik) erfordern, um in schwierigem Gelände auf den Füßen zu landen. Misslingt der Wurf, landest du liegend."
         ]
     },
     {
-        title: "Improvise",
+        title: "Improvisieren",
         icon: "juggler",
-        subtitle: "Any stunt not on this list",
-        description: "Perform any movement or stunt you can imagine",
+        subtitle: "Jedes Manöver außerhalb dieser Liste",
+        description: "Führe eine Bewegung oder einen Kunstgriff deiner Wahl aus",
         bullets: [
-            "When you describe a kind of movement not detailed elsewhere in the rules, the DM tells you whether it is possible and what kind of roll you need to make, if any, to determine success or failure."
+            "Wenn du eine Bewegungsart beschreibst, die in den Regeln nicht genauer erläutert ist, entscheidet der DM, ob sie möglich ist und welcher Wurf dafür gegebenenfalls nötig ist."
         ]
     },
     {
-        title: "Difficult terrain",
+        title: "Schwieriges Gelände",
         icon: "stone-pile",
-        subtitle: "Cost modifier: +1,5m per 1,5m",
-        reference: "PHB, pg. 182.",
-        description: "Moving in difficult terrain costs an additional 1,5m per 1,5m of movement",
+        subtitle: "Kostenmodifikator: +1,5 m pro 1,5 m",
+        reference: "PHB, S. 182.",
+        description: "Bewegung in schwierigem Gelände kostet zusätzlich 1,5 m pro 1,5 m Bewegung",
         bullets: [
         ]
     },
     {
-        title: "Grapple move",
+        title: "Bewegung beim Packen",
         icon: "grab",
-        subtitle: "Modifier: speed halved",
-        description: "Drag or carry the grappled creature with you",
-        reference: "PHB, pg. 195.",
+        subtitle: "Modifikator: Bewegungsrate halbiert",
+        description: "Ziehe oder trage die gepackte Kreatur mit dir",
+        reference: "PHB, S. 195.",
         bullets: [
-            "If you move while grappling another creature, your speed is halved, unless the creature is two or more sizes smaller than you.",
-            "See the attack action for how to grapple a creature."
+            "Wenn du dich bewegst, während du eine andere Kreatur gepackt hältst, ist deine Bewegungsrate halbiert, es sei denn, die Kreatur ist mindestens zwei Größenkategorien kleiner als du.",
+            "Wie du eine Kreatur packst, siehe Aktion Angreifen."
         ]
     }
 ]
